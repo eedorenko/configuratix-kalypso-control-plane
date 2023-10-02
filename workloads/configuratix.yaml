@@ -1,12 +1,12 @@
 apiVersion: scheduler.kalypso.io/v1alpha1
 kind: WorkloadRegistration
 metadata:
-  name: platform-svc
+  name: configuratix
   labels:
-    type: service
+    type: application
 spec:
   workload:
-    repo: https://github.com/eedorenko/configuratix-kalypso-svc-src
+    repo: https://github.com/eedorenko/configuratix
     branch: main
     path: ./workloads
-  workspace: platform-team
+  workspace: busybox-team
