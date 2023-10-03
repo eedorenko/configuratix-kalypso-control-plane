@@ -7,6 +7,6 @@ metadata:
      factory: tabler-station
 data:
   factoryName: "Tabler Station"
-  factoryID: 10
+  factoryID: "10"
   deviceName: test123
   acrHostname: "pg.acr.io"
