@@ -7,5 +7,5 @@ metadata:
      factory: tabler-station
      type: shared
 data:
-  ffr04.uiEnabled: true
+  ffr04.uiEnabled: "true"
   ffr04.uiSecurityGroup: ad-group-team1

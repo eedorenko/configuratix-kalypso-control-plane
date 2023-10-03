@@ -8,6 +8,6 @@ metadata:
      line: ffr05
 data:
     backendVersion: v3456
-    uiEnabled: true
+    uiEnabled: "true"
 
 

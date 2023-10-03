@@ -7,4 +7,4 @@ metadata:
      factory: tabler-station
      type: shared
 data:
-  ffr06.uiEnabled: false
+  ffr06.uiEnabled: "false"
