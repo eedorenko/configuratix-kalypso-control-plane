@@ -7,4 +7,5 @@ metadata:
      factory: tabler-station
      type: shared
 data:
-  ffr06.uiEnabled: "false"
+  uc2-ffr06-config.yaml: |
+    uiEnabled: "false"

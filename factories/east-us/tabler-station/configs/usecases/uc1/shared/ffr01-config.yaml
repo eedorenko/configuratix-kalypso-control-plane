@@ -7,7 +7,8 @@ metadata:
      factory: tabler-station
      type: shared
 data:
-  ffr01.sqlVersion: v1234
-  ffr01.tags: |
-      - ffr1_tag_10
-      - ffr1_tag_20
+  uc1-ffr01-config.yaml: |
+    sqlVersion: v1234
+    tags: |
+        - ffr1_tag_10
+        - ffr1_tag_20
