@@ -1,0 +1,15 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: SchedulingPolicy
+metadata:
+  name: uc1-shared-policy
+spec:
+  deploymentTargetSelector:
+    labelSelector:
+      matchLabels:
+        deployment-type: shared
+        use-case: uc1
+  clusterTypeSelector:
+    labelSelector: 
+      matchLabels:
+        type: shared
+        factory: tabler-station

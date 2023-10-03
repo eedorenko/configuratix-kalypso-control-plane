@@ -1,0 +1,15 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: SchedulingPolicy
+metadata:
+  name: uc2-perline-policy
+spec:
+  deploymentTargetSelector:
+    labelSelector:
+      matchLabels:
+        deployment-type: perline
+        use-case: uc2
+  clusterTypeSelector:
+    labelSelector: 
+      matchLabels:
+        type: line
+        factory: tabler-station

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: uc2-ffr01-config
+  labels:
+     platform-config: "true"
+     factory: tabler-station
+     type: shared
+data:
+  ffr01.uiEnabled: true
+  ffr01.uiSecurityGroup: ad-group-team1

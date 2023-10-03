@@ -1,0 +1,12 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: ClusterType
+metadata:
+  name: tabler-station-ffr04
+  labels: 
+    region: east-us
+    factory: tabler-station
+    type: line
+    line: ffr04
+spec:
+  reconciler: arc-flux
+  namespaceService: default

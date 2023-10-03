@@ -1,0 +1,11 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: ClusterType
+metadata:
+  name: tabler-station-shared
+  labels: 
+    region: east-us
+    factory: tabler-station
+    type: shared
+spec:
+  reconciler: arc-flux
+  namespaceService: default

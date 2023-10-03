@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ffr01-config
+  labels:
+     platform-config: "true"
+     factory: tabler-station
+     line: ffr01
+data:
+  upper: FFR01changed
+  lower: ffr01
+

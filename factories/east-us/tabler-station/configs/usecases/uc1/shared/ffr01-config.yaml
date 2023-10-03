@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: uc1-ffr01-config
+  labels:
+     platform-config: "true"
+     factory: tabler-station
+     type: shared
+data:
+  ffr01.sqlVersion: v1234
+  ffr01.tags: |
+      - ffr1_tag_10
+      - ffr1_tag_20

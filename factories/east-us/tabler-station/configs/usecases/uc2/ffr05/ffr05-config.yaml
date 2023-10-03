@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: uc2-ffr05-config
+  labels:
+     platform-config: "true"
+     factory: tabler-station
+     line: ffr05
+data:
+    backendVersion: v3456
+    uiEnabled: true
+
+
