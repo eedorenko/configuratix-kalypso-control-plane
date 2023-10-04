@@ -13,3 +13,4 @@ spec:
       matchLabels:
         type: shared
         factory: tabler-station
+        fake: "true"
