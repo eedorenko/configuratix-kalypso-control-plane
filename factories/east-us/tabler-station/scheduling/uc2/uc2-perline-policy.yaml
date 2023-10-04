@@ -13,4 +13,3 @@ spec:
       matchLabels:
         type: line
         factory: tabler-station
-        fake: "true"
