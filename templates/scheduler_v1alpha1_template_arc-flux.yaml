@@ -33,4 +33,5 @@ spec:
           kind: GitRepository
           name: {{ .DeploymentTargetName}}-{{ .ClusterType}}
         path: {{ .Manifests.path}} 
+        suspend: true
         prune: true
