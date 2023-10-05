@@ -8,7 +8,7 @@ metadata:
      type: shared
 data:
   uc1-ffr01-config.yaml: |
-    sqlVersion: v1234
+    sqlVersion: v12345
     tags: |
         - ffr1_tag_10
         - ffr1_tag_20
