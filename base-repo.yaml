@@ -6,4 +6,4 @@ spec:
   repo: https://github.com/eedorenko/configuratix-kalypso-control-plane
   branch: main
   path: .
-  commit: 884aa7ccb8eb8d30b8d14a45259c1102a95a23df
+  commit: a76c1c4e039f90a8dce75cb8ac27d052dcec1638
