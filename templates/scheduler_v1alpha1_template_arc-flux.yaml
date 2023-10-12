@@ -35,3 +35,5 @@ spec:
         path: {{ .Manifests.path}} 
         suspend: false
         prune: true
+
+        
