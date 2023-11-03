@@ -7,7 +7,7 @@ spec:
     labelSelector:
       matchLabels:
         deployment-type: shared
-        use-case: uc1
+        use-case: uc11
   clusterTypeSelector:
     labelSelector: 
       matchLabels:
