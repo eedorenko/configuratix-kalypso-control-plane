@@ -6,6 +6,7 @@ metadata:
      platform-config: "true"
      factory: tabler-station
      type: shared
+     use-case: uc1
 data:
   uc1-ffr01-config.yaml: |
     sqlVersion: v12345
