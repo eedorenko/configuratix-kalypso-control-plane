@@ -18,10 +18,10 @@ spec:
           "type": "integer",
           "description": "Factory ID"
           "exclusiveMinimum": 0
-        },
+        }
+        }
         "required": [
           "factoryName",
           "factoryID"
-        ]        
-      }
+        ]              
     }
