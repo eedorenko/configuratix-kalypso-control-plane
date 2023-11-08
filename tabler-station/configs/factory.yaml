@@ -5,7 +5,6 @@ metadata:
   labels:
      platform-config: "true"
      factory: tabler-station
-data:  
-  factoryID: "10"
+data:    
   deviceName: test12345
   acrHostname: "pg.acr.io"
