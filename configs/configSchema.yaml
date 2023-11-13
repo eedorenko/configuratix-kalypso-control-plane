@@ -12,7 +12,7 @@ spec:
     "properties": {
       "factoryName": {
       "type": "string",
-      "description": "Factory Name"
+      "description": "Factory name"
       },
       "factoryID": {
       "type": "integer",
