@@ -9,7 +9,7 @@ metadata:
      use-case: uc1
 data:
   uc1-ffr04-config.yaml: |
-    sqlVersion: v3456
+    sqlVersion: v34567
     tags: |
         - ffr4_tag_1
         - ffr4_tag_2
