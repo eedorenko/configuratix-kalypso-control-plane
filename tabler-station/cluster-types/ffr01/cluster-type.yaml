@@ -8,5 +8,5 @@ metadata:
     type: line
     line: ffr01
 spec:
-  reconciler: symphony1
+  reconciler: symphony
   namespaceService: default
