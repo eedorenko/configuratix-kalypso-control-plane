@@ -8,5 +8,5 @@ metadata:
     type: line
     line: ffr06
 spec:
-  reconciler: arc-flux
+  reconciler: symphony
   namespaceService: default
