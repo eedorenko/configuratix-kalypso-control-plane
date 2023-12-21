@@ -1,0 +1,17 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: Template
+metadata:
+  name: configMap
+spec:
+  type: config
+  manifests:
+    - |
+      apiVersion: v1
+      kind: ConfigMap
+      metadata:
+        name: platform-config
+        namespace: {{ .Namespace}}
+      data:
+        {{ range $key, $value := .ConfigData }}
+            {{ $key }}: {{ $value }}
+        {{ end }}
