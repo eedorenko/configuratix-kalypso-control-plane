@@ -6,7 +6,7 @@ metadata:
     region: east-us
     factory: tabler-station
     type: line
-    line: ffr01
+    line: ffr02
 spec:
   reconciler: symphony
   namespaceService: default
