@@ -9,4 +9,4 @@ metadata:
 spec:
   reconciler: arc-flux
   namespaceService: default
-  ConfigType: configMap
+  configType: configMap
