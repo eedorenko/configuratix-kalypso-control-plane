@@ -15,4 +15,4 @@ spec:
         type: config
         name: catalog-platform-config
         properties:
-{{ toYaml .ConfigData | indent 4}}
+      {{ toYaml .ConfigData | indent 4}}
