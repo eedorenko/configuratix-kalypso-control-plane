@@ -13,6 +13,6 @@ spec:
         namespace: {{ .Namespace}}
       spec:  
         type: config
-        name: catalog-platform-config
+        name: platform-config
         properties:
       {{ toYaml .ConfigData | indent 4}}
