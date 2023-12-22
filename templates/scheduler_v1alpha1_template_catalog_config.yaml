@@ -1,0 +1,18 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: Template
+metadata:
+  name: symphony-config-catalog
+spec:
+  type: config
+  manifests:
+    - |
+      apiVersion: federation.symphony/v1
+      kind: Catalog
+      metadata:
+        name: catalog-platform-config
+        namespace: {{ .Namespace}}
+      spec:  
+        type: config
+        name: catalog-platform-config
+        properties:
+{{ toYaml .ConfigData | indent 4}}
