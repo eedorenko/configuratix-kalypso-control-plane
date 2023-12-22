@@ -12,6 +12,4 @@ spec:
         name: platform-config
         namespace: {{ .Namespace}}
       data:
-        {{ range $key, $value := .ConfigData }}
-            {{ $key }}: {{ $value }}
-        {{ end }}
+      {{ toYaml .ConfigData | indent 2}}
