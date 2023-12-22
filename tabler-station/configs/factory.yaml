@@ -8,5 +8,5 @@ metadata:
 data:
   factoryName: "Tabler Station"
   factoryID: "11"
-  deviceName: test1234567
+  deviceName: test12345678
   acrHostname: "pg.acr.io"
