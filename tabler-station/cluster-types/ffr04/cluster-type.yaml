@@ -10,4 +10,4 @@ metadata:
 spec:
   reconciler: symphony
   namespaceService: default
-  configType: configMap
+  configType: k8s-config-map
