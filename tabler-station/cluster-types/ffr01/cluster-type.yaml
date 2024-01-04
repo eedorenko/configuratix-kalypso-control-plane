@@ -10,4 +10,4 @@ metadata:
 spec:
   reconciler: symphony
   namespaceService: default
-  configType: k8s-config-map # could be "symphony-config-catalog" as well if we want to generate Symphony catalog object see https://github.com/eedorenko/configuratix-kalypso-control-plane/blob/main/templates/scheduler_v1alpha1_template_catalog_config.yaml 
+  configType: symphony-config-catalog
