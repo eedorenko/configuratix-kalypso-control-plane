@@ -10,3 +10,4 @@ data:
   factoryID: "11"
   deviceName: test123456789
   acrHostname: "pg.acr.io"
+  replicas: 2 
