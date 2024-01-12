@@ -1,0 +1,13 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: ClusterType
+metadata:
+  name: trogdor-line1
+  labels: 
+    region: east-us
+    factory: trogdor
+    type: line
+    line: line1
+spec:
+  reconciler: none
+  namespaceService: default
+  configType: symphony-config-catalog

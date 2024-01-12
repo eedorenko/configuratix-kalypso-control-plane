@@ -1,0 +1,14 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: SchedulingPolicy
+metadata:
+  name: azvote-line1-policy
+spec:
+  deploymentTargetSelector:
+    labelSelector:
+      matchLabels:
+        use-case: az-vote
+  clusterTypeSelector:
+    labelSelector: 
+      matchLabels:
+        line: line1
+        factory: trodgor

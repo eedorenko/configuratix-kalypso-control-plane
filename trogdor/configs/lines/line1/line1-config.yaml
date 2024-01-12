@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trogdor-line1-config
+  labels:
+     platform-config: "true"
+     factory: trogdor
+     line: line1
+data:
+  VOTE1VALUE: 'Picard'  
+  VOTE2VALUE: 'Kirk'

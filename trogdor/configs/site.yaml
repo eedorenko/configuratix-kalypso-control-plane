@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trogdor-global-config
+  labels:
+     platform-config: "true"
+     factory: trogdor
+data:
+  TITLE: "Voting Application from Cloud"
