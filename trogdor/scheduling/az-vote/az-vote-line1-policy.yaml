@@ -11,4 +11,4 @@ spec:
     labelSelector: 
       matchLabels:
         line: line1
-        factory: trodgor
+        factory: trogdor
