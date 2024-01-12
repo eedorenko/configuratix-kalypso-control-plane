@@ -3,7 +3,6 @@ kind: ClusterType
 metadata:
   name: trogdor-line1
   labels: 
-    region: east-us
     factory: trogdor
     type: line
     line: line1

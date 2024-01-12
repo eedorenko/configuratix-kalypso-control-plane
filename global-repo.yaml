@@ -5,4 +5,4 @@ metadata:
 spec:
   repo: https://github.com/eedorenko/configuratix-kalypso-control-plane-global
   branch: dev
-  path: ./nonexistent
+  path: .
