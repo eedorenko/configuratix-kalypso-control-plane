@@ -7,5 +7,5 @@ spec:
   type: namespace
   manifests:
     - |
-    ---
+      ---
           
