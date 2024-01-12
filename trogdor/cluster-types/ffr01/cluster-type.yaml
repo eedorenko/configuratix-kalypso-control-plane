@@ -8,5 +8,5 @@ metadata:
     line: line1
 spec:
   reconciler: none
-  namespaceService: namespace_none
+  namespaceService: namespace-none
   configType: symphony-config-catalog
