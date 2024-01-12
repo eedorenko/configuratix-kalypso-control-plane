@@ -1,0 +1,11 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: Template
+metadata:
+  labels:
+  name: namespace_none
+spec:
+  type: namespace
+  manifests:
+    - |
+    ---
+          
