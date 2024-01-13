@@ -1,0 +1,17 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: Template
+metadata:
+  name: assignment
+spec:
+  type: reconciler
+  manifests:
+    - |
+      apiVersion: v1
+      kind: ConfigMap
+      metadata:
+        name: {{ .Workload}}-{{ .ClusterType}}-assignment
+        labels:
+          type: assignment
+      data:
+        application: {{ .Workload}}
+        line: {{ .ClusterType}}
