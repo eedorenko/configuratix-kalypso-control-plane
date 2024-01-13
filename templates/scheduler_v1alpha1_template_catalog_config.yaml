@@ -16,3 +16,4 @@ spec:
         name: platform-config
         properties:
       {{ toYaml .ConfigData | indent 4}}
+      
