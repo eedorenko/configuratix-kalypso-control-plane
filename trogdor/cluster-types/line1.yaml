@@ -9,4 +9,4 @@ metadata:
 spec:
   reconciler: assignment
   namespaceService: none
-  configType: symphony-config-catalog
+  configType: cascade-lakes-config-catalog
