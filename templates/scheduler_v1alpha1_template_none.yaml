@@ -1,9 +1,0 @@
-apiVersion: scheduler.kalypso.io/v1alpha1
-kind: Template
-metadata:
-  name: none
-spec:
-  type: reconciler
-  manifests:
-    - |
-      ---
