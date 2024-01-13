@@ -10,7 +10,6 @@ spec:
       kind: Catalog
       metadata:
         name: catalog-platform-config
-        namespace: {{ .Namespace}}
       spec:  
         type: config
         name: platform-config
