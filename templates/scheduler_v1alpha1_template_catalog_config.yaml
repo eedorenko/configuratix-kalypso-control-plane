@@ -9,7 +9,7 @@ spec:
       apiVersion: federation.symphony/v1
       kind: Catalog
       metadata:
-        name: catalog-platform-config
+        name: {{ .Workload}}-{{ .ClusterType}}-config-{{ hash .ConfigData}}
       spec:  
         type: config
         name: platform-config
