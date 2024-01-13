@@ -1,7 +1,7 @@
 apiVersion: scheduler.kalypso.io/v1alpha1
 kind: Template
 metadata:
-  name: symphony-config-catalog
+  name: cascade-lakes-config-catalog
 spec:
   type: config
   manifests:
@@ -9,10 +9,8 @@ spec:
       apiVersion: federation.symphony/v1
       kind: Catalog
       metadata:
-        name: catalog-platform-config
-        namespace: {{ .Namespace}}
+        name: {{ .Workload}}-{{ .ClusterType}}-config-{{ hash .ConfigData}}
       spec:  
         type: config
-        name: platform-config
         properties:
       {{ toYaml .ConfigData | indent 4}}
