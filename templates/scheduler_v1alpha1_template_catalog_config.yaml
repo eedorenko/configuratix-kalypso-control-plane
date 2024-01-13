@@ -12,6 +12,5 @@ spec:
         name: {{ .Workload}}-{{ .ClusterType}}-config-{{ hash .ConfigData}}
       spec:  
         type: config
-        name: platform-config
         properties:
       {{ toYaml .ConfigData | indent 4}}
