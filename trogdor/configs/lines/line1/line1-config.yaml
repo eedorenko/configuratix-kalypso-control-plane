@@ -9,3 +9,4 @@ metadata:
 data:
   VOTE1VALUE: 'Picard'  
   VOTE2VALUE: 'Kirk'
+  tags: ['tag1', 'tag2'] 
