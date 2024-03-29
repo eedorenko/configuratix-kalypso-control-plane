@@ -8,7 +8,7 @@ metadata:
      use-case: hotmelt
      rules-engine-core-index: "03"
 data:
-  module:
+  module: |
     start-of-run-wait-time: "300"
     lag: "60"
     jump_threshold: "0.03"
