@@ -8,10 +8,11 @@ metadata:
      class: diaper-line
      is_side_seam_collect: "true"
 data:
-  tags: [
+  tags: |
+    [
     "Servo-s04.ActualPosition",
     "Servo-s04.ActualVelosity",
-    "Servo-s04.AverageVelosity",
-  ]
-  QueryIntervalSec: 900
-  TimeWindowShift: 60
+    "Servo-s04.AverageVelosity"
+    ]
+  QueryIntervalSec: "900"
+  TimeWindowShift: "60"

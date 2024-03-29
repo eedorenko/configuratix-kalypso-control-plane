@@ -10,4 +10,5 @@ data:
   LINE_NAME_UPPER: "DICG156"
   LINE_NAME_LOWER: "dicg162"
   ZMQ_REC: "tcp://badboihCG162.bcc.pg.com:5566"
-  tags: ['Tag1', 'Tag2'] 
+  tags: |
+    ['Tag1', 'Tag2'] 

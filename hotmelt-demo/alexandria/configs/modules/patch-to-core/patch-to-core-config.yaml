@@ -9,10 +9,10 @@ metadata:
      module: "patch-to-core"
 data:
   module:
-    window-period: 5
-    hold-for-runs: 25
-    wc-threshhold-multiplier: 4
-    tag:
+    window-period: "5"
+    hold-for-runs: "25"
+    wc-threshhold-multiplier: "4"
+    tag: |
       short-name: "Patch to Core Glue"
       technical-name: "f.AQP.Patch to Core Glue"
       reject-tags: ["R173", "R018"]

@@ -9,9 +9,9 @@ metadata:
      module: "waist-elastic-op"
 data:
   module:
-    window-period: 5
-    hold-for-runs: 10
-    tag:
+    window-period: "5"
+    hold-for-runs: "10"
+    tag: |
       short-name: "Waist Elastic Glue OP/S"
       technical-name: "f_SL.Waist Elastic Glue OP..."
       reject-tags: ["R063 SL"]

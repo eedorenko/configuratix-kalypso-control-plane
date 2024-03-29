@@ -9,9 +9,9 @@ metadata:
      rules-engine-core-index: "03"
 data:
   module:
-    start-of-run-wait-time: 300
-    lag: 60
-    jump_threshold: 0.03
-    drop-threshold: 0.03
+    start-of-run-wait-time: "300"
+    lag: "60"
+    jump_threshold: "0.03"
+    drop-threshold: "0.03"
 
 
