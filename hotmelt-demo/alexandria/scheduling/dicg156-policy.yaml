@@ -10,6 +10,6 @@ spec:
   clusterTypeSelector:
     labelSelector: 
       matchLabels:
-        line: 156
+        line: dicg156
         factory: alexandria
 
