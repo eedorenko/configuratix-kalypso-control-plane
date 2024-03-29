@@ -1,0 +1,16 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: SchedulingPolicy
+metadata:
+  name: dicg162-policy
+spec:
+  deploymentTargetSelector:
+    labelSelector:
+      matchLabels:
+        use-case: hotmelt
+        module: patch-to-core
+  clusterTypeSelector:
+    labelSelector: 
+      matchLabels:
+        line: 156
+        factory: alexandria
+

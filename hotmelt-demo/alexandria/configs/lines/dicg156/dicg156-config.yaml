@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: alexandria-dicg156-config
+  labels:
+     platform-config: "true"
+     factory: alexandria
+     line: dicg156
+data:
+  LINE_NAME_UPPER: "DICG156"
+  LINE_NAME_LOWER: "dicg156"
+  ZMQ_REC: "tcp://badboihCG156.bcc.pg.com:5566"
+  tags: ['Specific_dig156_Tag1', 'Specific_dig156_Tag2'] 

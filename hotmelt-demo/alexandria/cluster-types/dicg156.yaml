@@ -1,0 +1,18 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: ClusterType
+metadata:
+  name: dicg156
+  labels: 
+    factory: alexandria
+    line: dicg156
+    class: diaper-line
+    type: main
+    variant: eClassic
+    rules-engine-core-index: "03"
+    is_influx_pbqa: "true"
+    hm_bb_metrics: "true"
+    is_side_seam_collect: "true"
+spec:
+  reconciler: assignment
+  namespaceService: none
+  configType: cascade-lakes-config-catalog

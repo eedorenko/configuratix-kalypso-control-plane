@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: alexandria-site-config
+  labels:
+     platform-config: "true"
+     factory: alexandria
+data:
+  FACTORY_NAME: "Alexandria"
+  STORAGE_WORKLOAD_LOGGING_LEVEL: "information"

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: side-seam-tags-config
+  labels:
+     platform-config: "true"
+     factory: alexandria
+     class: diaper-line
+     is_side_seam_collect: "true"
+data:
+  tags: [
+    "Servo-s04.ActualPosition",
+    "Servo-s04.ActualVelosity",
+    "Servo-s04.AverageVelosity",
+  ]
+  QueryIntervalSec: 900
+  TimeWindowShift: 60

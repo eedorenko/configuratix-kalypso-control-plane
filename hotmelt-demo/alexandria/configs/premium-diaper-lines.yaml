@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: alexandria-premium-diaper-config
+  labels:
+     platform-config: "true"
+     factory: alexandria
+     class: diaper-line
+     type: premium
+data:
+  PREMIUM_PROPERTY: "Premium Value"
+  PREMIUM_PROPERTIES_BLOCK:
+     PORT: "8080"
+     HOST: "localhost"
+  PREMIUM_PROPERTIES_MAP:
+    - name: "Premium Property 1"
+      value: "Premium Value 1"
+    - name: "Premium Property 2"
+      value: "Premium Value 2"

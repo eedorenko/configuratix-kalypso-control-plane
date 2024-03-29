@@ -1,0 +1,17 @@
+apiVersion: scheduler.kalypso.io/v1alpha1
+kind: ClusterType
+metadata:
+  name: dicg162  
+  labels: 
+    factory: alexandria
+    line: dicg162
+    class: diaper-line
+    type: premium
+    rules-engine-core-index: "05"
+    is_smac_gc: "true"
+    is_influx_pbqa: "true"
+    hm_bb_metrics: "true"
+spec:
+  reconciler: assignment
+  namespaceService: none
+  configType: cascade-lakes-config-catalog

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rules-engine-core-03-config
+  labels:
+     platform-config: "true"
+     factory: alexandria
+     use-case: hotmelt
+     rules-engine-core-index: "03"
+data:
+  module:
+    start-of-run-wait-time: 300
+    lag: 60
+    jump_threshold: 0.03
+    drop-threshold: 0.03
+
+
