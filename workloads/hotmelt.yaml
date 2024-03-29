@@ -6,7 +6,7 @@ metadata:
     type: application
 spec:
   workload:
-    repo: https://github.com/kaizentm/symphony-app
+    repo: https://github.com/eedorenko/configuratix
     branch: main
     path: ./hotmelt
   workspace: trodgor-team
