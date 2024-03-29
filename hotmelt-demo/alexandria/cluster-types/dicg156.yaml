@@ -4,6 +4,7 @@ metadata:
   name: dicg156
   labels: 
     factory: alexandria
+    region: east-us
     line: dicg156
     class: diaper-line
     type: main

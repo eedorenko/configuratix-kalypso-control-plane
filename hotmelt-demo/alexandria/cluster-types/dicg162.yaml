@@ -4,6 +4,7 @@ metadata:
   name: dicg162  
   labels: 
     factory: alexandria
+    region: east-us
     line: dicg162
     class: diaper-line
     type: premium
