@@ -1,3 +1,6 @@
+# Common module configuration for any module assignment
+# on a line labeled as rules-engine-core-index: "05" (e.g. dicg162)
+
 apiVersion: v1
 kind: ConfigMap
 metadata:

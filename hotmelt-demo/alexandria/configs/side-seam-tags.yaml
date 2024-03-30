@@ -1,3 +1,5 @@
+# If the line is labeled as is_side_seam_collect: "true" (e.g. dicg156), these tags are added to the line specific tags
+# as well QueryIntervalSec and TimeWindowShift properties
 apiVersion: v1
 kind: ConfigMap
 metadata:

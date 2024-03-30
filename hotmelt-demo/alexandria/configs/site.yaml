@@ -1,3 +1,5 @@
+# Site level configuration for the Alexandria factory
+# This configuration is applied to all modules in the factory on every line
 apiVersion: v1
 kind: ConfigMap
 metadata:

@@ -1,3 +1,5 @@
+# These premium properties are added to any line that is premium (e.g. dicg162)
+# They are not composed to a non-premium line (e.g. dicg156)
 apiVersion: v1
 kind: ConfigMap
 metadata:

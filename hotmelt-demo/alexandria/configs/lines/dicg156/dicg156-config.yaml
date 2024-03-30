@@ -1,3 +1,5 @@
+# Line specific configuration for dicg156
+# These values go to every modukle assignemt for dicg156
 apiVersion: v1
 kind: ConfigMap
 metadata:
