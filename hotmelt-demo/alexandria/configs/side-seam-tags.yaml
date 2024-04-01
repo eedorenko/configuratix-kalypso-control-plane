@@ -16,5 +16,5 @@ data:
     "Servo-s04.ActualVelosity",
     "Servo-s04.AverageVelosity"
     ]
-  QueryIntervalSec: "910"
+  QueryIntervalSec: "911"
   TimeWindowShift: "60"
