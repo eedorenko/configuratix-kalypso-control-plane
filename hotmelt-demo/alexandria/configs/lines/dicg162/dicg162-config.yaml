@@ -1,7 +1,6 @@
 # Line specific configuration for dicg162
 # These values go to every modukle assignemt for dicg162
 apiVersion: v1
-apiVersion: v1
 kind: ConfigMap
 metadata:
   name: alexandria-dicg162-config
