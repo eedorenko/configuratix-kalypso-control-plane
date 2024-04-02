@@ -15,6 +15,6 @@ data:
     start-of-run-wait-time: "360"
     lag: "60"
     jump_threshold: "0.05"
-    drop-threshold: "0.05"
+    drop-threshold: 0.05
 
 
