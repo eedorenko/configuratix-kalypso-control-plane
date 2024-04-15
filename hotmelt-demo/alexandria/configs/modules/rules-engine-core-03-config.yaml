@@ -13,7 +13,7 @@ data:
   module: |
     start-of-run-wait-time: "300"
     lag: "60"
-    jump_threshold: "0.03"
+    jump_threshold: 0.03
     drop-threshold: 0.03
 
 
