@@ -14,7 +14,8 @@ data:
     [
     "Servo-s04.ActualPosition",
     "Servo-s04.ActualVelosity",
-    "Servo-s04.AverageVelosity"
+    "Servo-s04.AverageVelosity",
+    "Servo-s04.MaxVelosity"
     ]
   QueryIntervalSec: "911"
   TimeWindowShift: "60"
