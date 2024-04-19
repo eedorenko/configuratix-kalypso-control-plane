@@ -1,5 +1,5 @@
 # Module configuration for Patch to Core Glue
-# These values go to every modukle assignemt for Patch to Core Glue
+# These values go to every module assignemt for Patch to Core Glue
 apiVersion: v1
 kind: ConfigMap
 metadata:
