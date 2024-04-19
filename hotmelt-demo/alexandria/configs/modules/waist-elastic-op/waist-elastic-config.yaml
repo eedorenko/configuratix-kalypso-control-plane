@@ -1,5 +1,5 @@
 # Module specific configuration for Waist Elastic Glue OP
-# These values go to every modukle assignemt for Waist Elastic Glue OP
+# These values go to every module assignemt for Waist Elastic Glue OP
 apiVersion: v1
 kind: ConfigMap
 metadata:
